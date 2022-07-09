@@ -65,7 +65,8 @@ export default {
     {
       name: "productImage",
       title: "Product Image",
-      type: "image",
+      type: "array",
+      of: [{ type: "image" }],
     },
   ],
 };
