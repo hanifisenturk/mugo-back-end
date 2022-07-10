@@ -8,8 +8,9 @@ import brands from "./brands";
 import shoeSizes from "./shoeSizes";
 import categories from "./categories";
 import clothingSizes from "./clothingSizes";
+import marquee from "./marquee";
 
-const types = [products, brands, shoeSizes, categories, clothingSizes];
+const types = [products, brands, shoeSizes, categories, clothingSizes, marquee];
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
